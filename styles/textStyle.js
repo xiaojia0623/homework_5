@@ -12,7 +12,6 @@ export default styles = StyleSheet.create({
     bigTitle:{ //內容頁面 - 大標題
       fontSize:40,
       textAlign:'center',
-      //marginBottom: 10,
     },
     smallTitle:{ //內容頁面 - 小標題
       fontSize:28,
@@ -22,8 +21,8 @@ export default styles = StyleSheet.create({
       //color:
     },
     textContent:{ //內容頁面 - 內容文字
-      fontSize:15,
-      lineHeight:'2rem',
+      fontSize:20,
+      lineHeight:32,
       marginBottom:10,
       color:'#ffffff',
     },
@@ -32,6 +31,9 @@ export default styles = StyleSheet.create({
       fontWeight:'bold',
       textAlign:'center',
       color:'#ffffff',
-    }
+    },
+    scrollView: {
+      marginHorizontal: 20,
+    },
   });
   

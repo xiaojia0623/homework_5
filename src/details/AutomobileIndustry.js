@@ -7,7 +7,7 @@ const AutoItem = ({ item }) => (
   <Text style={{fontSize:20, color:'rgb(79, 39, 2)', fontWeight:'bold'}}>{`\u2022 ${item}`}</Text>
 );
 
-export default function automobileIndustry(props) {
+export default function AutomobileIndustry(props) {
 
   const data = ['防熱盾', '餘熱管理', '陶瓷發動機']
 

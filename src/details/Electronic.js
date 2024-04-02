@@ -7,7 +7,7 @@ const ElecItem = ({ item }) => (
   <Text style={{fontSize:20, color:'rgb(79, 39, 2)', fontWeight:'bold'}}>{`\u2022 ${item}`}</Text>
 );
 
-export default function electronic(props) {
+export default function Electronic(props) {
   const data = ['電容器', '集成電路封裝', '換能器','絕緣體'];
   return (
     <View style={styles.container}>

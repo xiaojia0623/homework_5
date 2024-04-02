@@ -7,7 +7,7 @@ const ListItem = ({ item }) => (
   <Text style={{fontSize:20, color:'rgb(79, 39, 2)', fontWeight:'bold'}}>{`\u2022 ${item}`}</Text>
 );
 
-export default function biomedicalScience(props) {
+export default function BiomedicalScience(props) {
 
   const data = ['人工骨骼，牙科應用的假牙', '生物可降解夾板；用於治療骨質疏鬆症的強化骨骼', '植入物材料'];
   return (

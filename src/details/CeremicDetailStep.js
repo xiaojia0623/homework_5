@@ -1,12 +1,12 @@
 import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View ,ScrollView, TouchableOpacity} from 'react-native';
+import { StyleSheet, Text, View ,ScrollView,SafeAreaView,  TouchableOpacity} from 'react-native';
 import buttonsStyle from '../../styles/buttonsStyle';
 import textStyle from '../../styles/textStyle';
 
 export default function CeremicDetailStep(props) {
   return (
-    <View style={styles.container}>
-      <ScrollView style={styles.scrollView}>
+    <SafeAreaView style={styles.container}>
+      <ScrollView style={textStyle.scrollView}>
         <Text style={textStyle.bigTitle}>陶瓷生產步驟</Text>
         <Text style={textStyle.smallTitle}>生產步驟{'\n'}</Text>
         <Text style={textStyle.textContent}>陶瓷生產步驟按照如下順序：粉碎→配料→混合→成型→乾燥→火燒→裝配。</Text>
@@ -28,7 +28,7 @@ export default function CeremicDetailStep(props) {
         </TouchableOpacity>
         <StatusBar style="auto" />
       </ScrollView>
-    </View>
+    </SafeAreaView>
   );
 }
 
@@ -39,9 +39,5 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     justifyContent: 'center',
     textAlign:'center',
-    padding: 10,
-  },
-  scrollView: {
-    marginHorizontal: 20,
   },
 });

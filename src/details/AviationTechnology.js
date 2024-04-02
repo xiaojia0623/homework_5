@@ -3,10 +3,10 @@ import { StyleSheet, Text, TouchableOpacity, SafeAreaView, ScrollView} from 'rea
 import buttonsStyle from '../../styles/buttonsStyle';
 import textStyle from '../../styles/textStyle';
 
-export default function aviationTechnology(props) {
+export default function AviationTechnology(props) {
   return (
     <SafeAreaView style={styles.container}>
-      <ScrollView style={styles.scrollView}>
+      <ScrollView style={textStyle.scrollView}>
         <Text style={textStyle.bigTitle}>航空航天技術</Text>
         <Text style={[textStyle.smallTitle, {fontSize: 24}]}>發動機{'\n'}</Text>
         <Text style={textStyle.textContent}>飛機發動機在工作中非常熱，使用陶瓷材料隔絕熱量避免損壞其他零件。</Text>
@@ -37,10 +37,7 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     justifyContent: 'center',
     //margin:'auto',
-    padding: 10,
-  },
-  scrollView: {
-    marginHorizontal: 20,
+    //padding: 10,
   },
 
 });

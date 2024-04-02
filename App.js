@@ -29,13 +29,13 @@ const Stack = createStackNavigator();
 
 function MyHomeStack(){
   return (
-    <Stack.Navigator initialRouteName='首頁' screenOptions={{
+    <Stack.Navigator initialRouteName='Home' screenOptions={{
       headerStyle:{backgroundColor:'rgb(176, 107, 66)'},
       //headerBackTitle:'返回',
       // headerBackTitleVisible: true,
       headerTintColor:'white'
     }}>
-      <Stack.Screen name="首頁" component={HomeScreen} />
+      <Stack.Screen name="Home" component={HomeScreen} />
       <Stack.Screen name="CeremicHistory" component={CeremicDetailHistory} options={{title:'陶與瓷'}}/>
       <Stack.Screen name="CeremicIntro" component={CeremicDetailIntro} options={{title:'陶瓷介紹'}}/>
       <Stack.Screen name="CeremicStep" component={CeremicDetailStep} options={{title:'陶瓷生產步驟'}}/>
